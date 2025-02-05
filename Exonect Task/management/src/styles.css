@@ -1,0 +1,173 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.edit {
+    background-color: green;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.edit:hover {
+    background-color: green;
+}
+
+
+.delete {
+    background-color: #d9534f;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #c9302c;
+}
+
+
+.add {
+    background-color: #5bc0de;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #31b0d5;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    color: brown;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.state-name,
+.city-name {
+    font-weight: bold;
+    color: brown;
+    font-size: 20px;
+}
+
+
+.state-container {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+
+.state-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.city-container {
+    margin-top: 5px;
+}
+
+
+.table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.table td {
+    font-size: 20px;
+}
+
+.table td strong {
+    color: #007bff;
+}
+
+
+.table tr:hover {
+    background-color: #e9e9e9;
+}
+
+.table .btn {
+    font-size: 12px;
+    margin: 2px;
+}
+
+
+.add-state-city-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-state-city-btn:hover {
+    background-color: #218838;
+}
